@@ -4,10 +4,10 @@ echo "********************"
 echo "*  Housekeeping!!! *"
 echo "********************"
 echo ""
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove
-flatpak update
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt autoremove -y
+flatpak update -y
 echo ""
 echo "***********************"
 echo "*  Fresh and clean :) *"
